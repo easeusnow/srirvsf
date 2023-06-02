@@ -154,9 +154,9 @@ document.oncontextmenu = function() {
 //User Info Form
 var slideIndex = 0;
 
-// if (window.location.pathname ==='/index.html' || window.location.pathname ==='/sales.html') {
-//   showSlide(slideIndex);
-// }
+if (window.location.pathname ==='/srirvsf/' || window.location.pathname ==='/srirvsf/index.html' || window.location.pathname ==='/srirvsf/sales.html') {
+  showSlide(slideIndex);
+}
 showSlide(slideIndex);
 
 function nextSlide() {
