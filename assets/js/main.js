@@ -145,6 +145,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
+//Image Protection
+document.oncontextmenu = function() {
+  return false;
+}
+
 
 //User Info Form
 var slideIndex = 0;
@@ -255,13 +260,8 @@ function handleClick(){
 }
 
 
-//Image Protection
-document.oncontextmenu = function() {
-  return false;
-}
-
 function call(){
-  alert(windows.location.pathname); 
+  alert(window.location.pathname); 
 }
 
 call();
