@@ -259,3 +259,9 @@ function handleClick(){
 document.oncontextmenu = function() {
   return false;
 }
+
+function call(){
+  alert(windows.location.pathname); 
+}
+
+call();
