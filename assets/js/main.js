@@ -260,8 +260,8 @@ function handleClick(){
 }
 
 
-function call(){
-  alert(window.location.pathname); 
-}
+// function call(){
+//   alert(window.location.pathname); 
+// }
 
-call();
+// call();
