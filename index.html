@@ -50,7 +50,8 @@
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="./about.html">About</a></li>
           <li><a href="./contact.html">Contact</a></li>
-          <li class="dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="#"><span>Services</span> <i
+                class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="./sales.html">Sell Your Vehicle</a></li>
               <li><a href="./industrialscrap.html">Industrial Scrap</a></li>
@@ -219,8 +220,8 @@
           <div class="slide">
             <div class="row gy-2">
               <div class="col-sm-4">
-                <input type="radio" id="two_wheeler" class="radio_item" oninput="checkField()" onchange="handleClick()" name="vehicle"
-                  value="two_wheeler">
+                <input type="radio" id="two_wheeler" class="radio_item" oninput="checkField()" onchange="handleClick()"
+                  name="vehicle" value="two_wheeler">
                 <label for="two_wheeler" class="label_item">
                   <div class="label_box">
                     <i class="fa-solid fa-motorcycle fa-2xl"></i>
@@ -230,8 +231,8 @@
               </div>
 
               <div class="col-sm-4">
-                <input type="radio" id="four_wheeler" class="radio_item" oninput="checkField()" onchange="handleClick()" name="vehicle"
-                  value="four_wheeler">
+                <input type="radio" id="four_wheeler" class="radio_item" oninput="checkField()" onchange="handleClick()"
+                  name="vehicle" value="four_wheeler">
                 <label for="four_wheeler" class="label_item">
                   <div class="label_box">
                     <i class="fa-solid fa-car-side fa-2xl"></i>
@@ -241,7 +242,8 @@
               </div>
 
               <div class="col-sm-4">
-                <input type="radio" id="others" class="radio_item" oninput="checkField()" onchange="handleClick()" name="vehicle" value="others">
+                <input type="radio" id="others" class="radio_item" oninput="checkField()" onchange="handleClick()"
+                  name="vehicle" value="others">
                 <label for="others" class="label_item">
                   <div class="label_box">
                     <i class="fa-solid fa-truck-moving fa-2xl"></i>
@@ -253,32 +255,33 @@
           </div>
 
           <div class="slide">
-            <input type="text" class="form__field" oninput="checkField()" onkeydown="handleEnterKey(event)" placeholder="Name" name="name" id='name'
-              required />
+            <input type="text" class="form__field" oninput="checkField()" onkeydown="handleEnterKey(event)"
+              placeholder="Name" name="name" id='name' required />
             <label for="name" class="form__label">Name</label>
           </div>
 
           <div class="slide">
-            <input type="email" class="form__field" oninput="checkField()" onkeydown="handleEnterKey(event)" placeholder="Email" name="email" id='email'
-              required />
+            <input type="email" class="form__field" oninput="checkField()" onkeydown="handleEnterKey(event)"
+              placeholder="Email" name="email" id='email' required />
             <label for="name" class="form__label">Email</label>
           </div>
 
           <div class="slide">
-            <input type="tel" class="form__field" oninput="checkField()" onkeydown="handleEnterKey(event)" placeholder="Phone" name="phone" id='phone'
-              required />
+            <input type="tel" class="form__field" oninput="checkField()" onkeydown="handleEnterKey(event)"
+              placeholder="Phone" name="phone" id='phone' required />
             <label for="name" class="form__label">Phone</label>
           </div>
 
           <div class="slide">
-            <input type="text" class="form__field" oninput="checkField(); toggleSubmitBtn()" onkeydown="handleEnterKey(event)" placeholder="Car"
-              name="car" id='car' required />
+            <input type="text" class="form__field" oninput="checkField(); toggleSubmitBtn()"
+              onkeydown="handleEnterKey(event)" placeholder="Car" name="car" id='car' required />
             <label for="car" class="form__label">Car No.</label>
           </div>
 
           <button class="btn" type="button" onclick="previousSlide()" id="prevBtn"
             style="display: none;">Previous</button>
-          <button class="btn" type="button" style="display: none;" onclick="nextSlide()" id="nextBtn" disabled>Next</button>
+          <button class="btn" type="button" style="display: none;" onclick="nextSlide()" id="nextBtn"
+            disabled>Next</button>
           <button class="btn submitBtn" id="submitBtn" type="submit" disabled>Submit</button>
         </form>
       </div>
@@ -536,10 +539,27 @@
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#faq-content-1">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Why should I scrap my vehicle?
+                    What is vehicle scrapping?
                   </button>
                 </h3>
                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Vehicle scrapping refers to the process of dismantling and disposing of old or end-of-life vehicles.
+                    It involves recycling and extracting valuable materials from the vehicles while ensuring that
+                    harmful substances are properly disposed of or treated.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-2">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Why should I scrap my vehicle?
+                  </button>
+                </h3>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     In response to the escalating pollution and traffic levels in India, government agencies have
                     enacted a new regulation mandating the disposal of End-of-Life (ELV) vehicles, recognizing their
@@ -552,12 +572,12 @@
               <div class="accordion-item">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-2">
+                    data-bs-target="#faq-content-3">
                     <i class="bi bi-question-circle question-icon"></i>
                     How will Scrap Yard India help me Scrap my old car?
                   </button>
                 </h3>
-                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     Scrapyard India acts as your liaison, linking you with authorized vehicle scrapping facilities in
                     close proximity. Rest assured, our services encompass comprehensive legal documentation and the
@@ -569,12 +589,12 @@
               <div class="accordion-item">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-3">
+                    data-bs-target="#faq-content-4">
                     <i class="bi bi-question-circle question-icon"></i>
                     What is the process of scrapping my vehicle? How long does it take for the process to be completed?
                   </button>
                 </h3>
-                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     There are 5 steps:
                     <br>
@@ -592,12 +612,12 @@
               <div class="accordion-item">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-4">
+                    data-bs-target="#faq-content-5">
                     <i class="bi bi-question-circle question-icon"></i>
                     What happens to my car once I scrap it?
                   </button>
                 </h3>
-                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
 
                     We adhere to legal protocols in the scrapping of cars, striving to diminish their environmental
@@ -612,12 +632,12 @@
               <div class="accordion-item">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-5">
+                    data-bs-target="#faq-content-6">
                     <i class="bi bi-question-circle question-icon"></i>
                     What if some parts of my car are missing? Can I still scrap it?
                   </button>
                 </h3>
-                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     Indeed, we do accept vehicles of that nature. However, it's important to note that their inclusion
                     may impact the price offered to the owner.
@@ -628,12 +648,30 @@
               <div class="accordion-item">
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#faq-content-6">
+                    data-bs-target="#faq-content-7">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Can I remove valuable components from my vehicle before scrapping it?
+                  </button>
+                </h3>
+                <div id="faq-content-7" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    The rules regarding the removal of valuable components from vehicles before scrapping may vary. In
+                    some cases, you may be allowed to remove certain parts, such as custom accessories or personal
+                    belongings, from the vehicle. However, major components or parts necessary for the functioning of
+                    the vehicle, like engines or transmissions, may need to be surrendered to the scrapping service.
+                  </div>
+                </div>
+              </div><!-- # Faq item-->
+
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-8">
                     <i class="bi bi-question-circle question-icon"></i>
                     I do not have all the documentation for my car. Will Scrap Yard India help me scrap my vehicle?
                   </button>
                 </h3>
-                <div id="faq-content-6" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                <div id="faq-content-8" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     Thorough documentation holds significance to us. We are unable to accept a vehicle lacking the
                     required documentation. For further information, feel free to reach out to our knowledgeable
